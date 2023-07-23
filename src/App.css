@@ -1,0 +1,36 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  background-color: black; 
+}
+.view{
+  width: 100%;
+  height: 98%;
+}
+.contentContainer{
+  position: relative;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.titleContainer{
+  position: absolute;
+  width: auto;
+  height: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+.heading{
+  /* background-color: aliceblue; */
+  color: rgb(240, 12, 12);
+  margin: 0;
+  font: normal normal normal 98px/108px Sinoreta PERSONAL USE;
+  letter-spacing: 9.66px;
+  color: #FFFFFF;
+  text-shadow: -17px 26px 42px #000000;
+}
